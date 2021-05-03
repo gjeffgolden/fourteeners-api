@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mountain: one
+  name: MyString
+  mileage: 1.5
+  elevation_gain: 1
+  class_rating: 1
+  exposure: MyString
+
+two:
+  mountain: two
+  name: MyString
+  mileage: 1.5
+  elevation_gain: 1
+  class_rating: 1
+  exposure: MyString

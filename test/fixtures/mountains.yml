@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  elevation: 1
+  mountain_range: one
+  latitude: 1
+  longitude: 1
+  rank: 1
+  class_rating: 1
+  image_url: MyString
+
+two:
+  name: MyString
+  elevation: 1
+  mountain_range: two
+  latitude: 1
+  longitude: 1
+  rank: 1
+  class_rating: 1
+  image_url: MyString

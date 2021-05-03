@@ -1,0 +1,2 @@
+class MountainRangesController < ApplicationController
+end
