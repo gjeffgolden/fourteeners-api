@@ -37,9 +37,37 @@ Mountain.create(
     longitude: -106.320618,
     mountain_range: @sawatch, 
     image_url: "https://www.14ers.com/photos/harvardgroup/peakphotos/large/200706_Harv01.jpg?lu=20180101"
-# Mountain.create name: "Blanca Peak", elevation: "14,345 feet", rank: 4, class_rating: 2, range: "Sangre de Cristo", image: "https://www.14ers.com/photos/blancagroup/peakphotos/large/201707_Blanca01.jpg?lu=20180101"
-# Mountain.create name: "La Plata Peak", elevation: "14,336 feet", rank: 5, class_rating: 2, range: "Sawatch", image: "https://www.14ers.com/photos/laplatapeak/peakphotos/large/201805_Lap01.jpg?lu=20190205"
-# Mountain.create name: "Uncompahgre Peak", elevation: "14,309 feet", rank: 6, class_rating: 2, range: "San Juan", image: "https://www.14ers.com/photos/uncompahgrepeak/peakphotos/large/201710_Unco01.jpg?lu=20190320"
+)
+Mountain.create(
+    name: "Blanca Peak", 
+    elevation: 14345, 
+    rank: 4, 
+    class_rating: 2, 
+    latitude: 37.577473,
+    longitude: -105.485443,
+    mountain_range: @sangre_de_cristo, 
+    image_url: "https://www.14ers.com/photos/blancagroup/peakphotos/large/201707_Blanca01.jpg?lu=20180101"
+)
+Mountain.create(
+    name: "La Plata Peak", 
+    elevation: 14336, 
+    rank: 5, 
+    class_rating: 2, 
+    latitude: 39.029251,
+    longitude: -106.473145,
+    mountain_range: @sawatch, 
+    image_url: "https://www.14ers.com/photos/laplatapeak/peakphotos/large/201805_Lap01.jpg?lu=20190205"
+)
+Mountain.create(
+    name: "Uncompahgre Peak", 
+    elevation: 14309, 
+    rank: 6, 
+    class_rating: 2, 
+    latitude: 38.071507,
+    longitude: -107.462166,
+    mountain_range: @san_juan, 
+    image_url: "https://www.14ers.com/photos/uncompahgrepeak/peakphotos/large/201710_Unco01.jpg?lu=20190320"
+)
 # Mountain.create name: "Crestone Peak", elevation: "14,294 feet", rank: 7, class_rating: 3, range: "Sangre de Cristo", image: "https://www.14ers.com/photos/crestonegroup/peakphotos/large/201607_Crestones01.jpg?lu=20180101"
 # Mountain.create name: "Mt. Lincoln", elevation: "14,286 feet", rank: 8, class_rating: 1, range: "Tenmile-Mosquito", image: "https://www.14ers.com/photos/lincolngroup/peakphotos/large/201706_Demo01.jpg?lu=20180101"
 # Mountain.create name: "Grays Peak", elevation: "14,270 feet", rank: 9, class_rating: 1, range: "Front", image: "https://www.14ers.com/photos/graystorreys/peakphotos/large/201211_Grays01.jpg?lu=20180101"
