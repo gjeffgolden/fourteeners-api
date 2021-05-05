@@ -18,8 +18,25 @@ Mountain.create(
     longitude: -106.445417,
     image_url: "https://www.14ers.com/photos/mtelbert/peakphotos/large/201207_Elbert01.jpg?lu=20180101"
 )
-# Mountain.create name: "Mt. Massive", elevation: "14,421 feet", rank: 2, class_rating: 2, range: "Sawatch", image: "https://www.14ers.com/photos/mtmassive/peakphotos/large/201108_Massive01.jpg?lu=20180101"
-# Mountain.create name: "Mt. Harvard", elevation: "14,420 feet", rank: 3, class_rating: 2, range: "Sawatch", image: "https://www.14ers.com/photos/harvardgroup/peakphotos/large/200706_Harv01.jpg?lu=20180101"
+Mountain.create(
+    name: "Mt. Massive", 
+    elevation: 14421, 
+    rank: 2, 
+    class_rating: 2, 
+    mountain_range: @sawatch, 
+    latitude: 39.187298,
+    longitude: -106.475548,
+    image_url: "https://www.14ers.com/photos/mtmassive/peakphotos/large/201108_Massive01.jpg?lu=20180101"
+)
+Mountain.create(
+    name: "Mt. Harvard", 
+    elevation: 14420, 
+    rank: 3, 
+    class_rating: 2, 
+    latitude: 38.924328,
+    longitude: -106.320618,
+    mountain_range: @sawatch, 
+    image_url: "https://www.14ers.com/photos/harvardgroup/peakphotos/large/200706_Harv01.jpg?lu=20180101"
 # Mountain.create name: "Blanca Peak", elevation: "14,345 feet", rank: 4, class_rating: 2, range: "Sangre de Cristo", image: "https://www.14ers.com/photos/blancagroup/peakphotos/large/201707_Blanca01.jpg?lu=20180101"
 # Mountain.create name: "La Plata Peak", elevation: "14,336 feet", rank: 5, class_rating: 2, range: "Sawatch", image: "https://www.14ers.com/photos/laplatapeak/peakphotos/large/201805_Lap01.jpg?lu=20190205"
 # Mountain.create name: "Uncompahgre Peak", elevation: "14,309 feet", rank: 6, class_rating: 2, range: "San Juan", image: "https://www.14ers.com/photos/uncompahgrepeak/peakphotos/large/201710_Unco01.jpg?lu=20190320"
