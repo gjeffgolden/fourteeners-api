@@ -68,10 +68,37 @@ Mountain.create(
     mountain_range: @san_juan, 
     image_url: "https://www.14ers.com/photos/uncompahgrepeak/peakphotos/large/201710_Unco01.jpg?lu=20190320"
 )
-# Mountain.create name: "Crestone Peak", elevation: "14,294 feet", rank: 7, class_rating: 3, range: "Sangre de Cristo", image: "https://www.14ers.com/photos/crestonegroup/peakphotos/large/201607_Crestones01.jpg?lu=20180101"
-# Mountain.create name: "Mt. Lincoln", elevation: "14,286 feet", rank: 8, class_rating: 1, range: "Tenmile-Mosquito", image: "https://www.14ers.com/photos/lincolngroup/peakphotos/large/201706_Demo01.jpg?lu=20180101"
-# Mountain.create name: "Grays Peak", elevation: "14,270 feet", rank: 9, class_rating: 1, range: "Front", image: "https://www.14ers.com/photos/graystorreys/peakphotos/large/201211_Grays01.jpg?lu=20180101"
-# Mountain.create name: "Mt. Antero", elevation: "14,269 feet", rank: 10, class_rating: 2, range: "Sawatch", image: "https://www.14ers.com/photos/mtantero/peakphotos/large/201205_Ant01.jpg?lu=20180101"
+Mountain.create(
+    name: "Crestone Peak", 
+    elevation: "14,294 feet", 
+    rank: 7, 
+    class_rating: 3, 
+    latitude: 	37.966972,
+    longitude: -105.585304,
+    mountain_range: @sangre_de_cristo, 
+    image_url: "https://www.14ers.com/photos/crestonegroup/peakphotos/large/201607_Crestones01.jpg?lu=20180101"
+)
+Mountain.create(
+    name: "Mt. Lincoln", 
+    elevation: "14,286 feet", 
+    rank: 8, 
+    class_rating: 1, 
+    latitude: 39.351391,
+    longitude: -106.111404,
+    mountain_range: @tenmile_mosquito, 
+    image_url: "https://www.14ers.com/photos/lincolngroup/peakphotos/large/201706_Demo01.jpg?lu=20180101"
+)
+Mountain.create(
+    name: "Grays Peak", 
+    elevation: "14,270 feet", 
+    rank: 9, 
+    class_rating: 1, 
+    latitude: 	39.633820,
+    longitude: -105.817520,
+    mountain_range: @front, 
+    image_url: "https://www.14ers.com/photos/graystorreys/peakphotos/large/201211_Grays01.jpg?lu=20180101"
+)
+        # Mountain.create name: "Mt. Antero", elevation: "14,269 feet", rank: 10, class_rating: 2, range: "Sawatch", image: "https://www.14ers.com/photos/mtantero/peakphotos/large/201205_Ant01.jpg?lu=20180101"
 # Mountain.create name: "Torreys Peak", elevation: "14,267 feet", rank: 11, class_rating: 2, range: "Front", image: "https://www.14ers.com/photos/graystorreys/peakphotos/large/200706_Tor01.jpg?lu=20180101"
 # Mountain.create name: "Castle Peak", elevation: "14,265 feet", rank: 12, class_rating: 2, range: "Elk", image: "https://www.14ers.com/photos/castlegroup/peakphotos/large/200807_Cast04.jpg?lu=20180101"
 # Mountain.create name: "Quandary Peak", elevation: "14,265 feet", rank: 13, class_rating: 2, range: "Tenmile-Mosquito", image: "https://www.14ers.com/photos/quandarypeak/peakphotos/large/201201_Quan01.jpg?lu=20190320"
