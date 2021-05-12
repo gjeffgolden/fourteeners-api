@@ -98,11 +98,47 @@ Mountain.create(
     mountain_range: @front, 
     image_url: "https://www.14ers.com/photos/graystorreys/peakphotos/large/201211_Grays01.jpg?lu=20180101"
 )
-        # Mountain.create name: "Mt. Antero", elevation: "14,269 feet", rank: 10, class_rating: 2, range: "Sawatch", image: "https://www.14ers.com/photos/mtantero/peakphotos/large/201205_Ant01.jpg?lu=20180101"
-# Mountain.create name: "Torreys Peak", elevation: "14,267 feet", rank: 11, class_rating: 2, range: "Front", image: "https://www.14ers.com/photos/graystorreys/peakphotos/large/200706_Tor01.jpg?lu=20180101"
-# Mountain.create name: "Castle Peak", elevation: "14,265 feet", rank: 12, class_rating: 2, range: "Elk", image: "https://www.14ers.com/photos/castlegroup/peakphotos/large/200807_Cast04.jpg?lu=20180101"
-# Mountain.create name: "Quandary Peak", elevation: "14,265 feet", rank: 13, class_rating: 2, range: "Tenmile-Mosquito", image: "https://www.14ers.com/photos/quandarypeak/peakphotos/large/201201_Quan01.jpg?lu=20190320"
-# Mountain.create name: "Mt. Evans", elevation: "14,264 feet", rank: 14, class_rating: 2, range: "Front", image: "https://www.14ers.com/photos/evansgroup/peakphotos/large/200907_Evans01.jpg?lu=20190320"
+Mountain.create(
+    name: "Mt. Antero", 
+    elevation: "14,269 feet", 
+    rank: 10, 
+    class_rating: 2, 
+    latitude: 38.674088,
+    longitude: -106.246201,
+    mountain_range: @sawatch, 
+    image_url: "https://www.14ers.com/photos/mtantero/peakphotos/large/201205_Ant01.jpg?lu=20180101"
+)
+Mountain.create(
+    name: "Torreys Peak", 
+    elevation: "14,267 feet", 
+    rank: 11, 
+    class_rating: 2, 
+    latitude: 39.642742,
+    longitude: -105.821259,
+    mountain_range: @front, 
+    image_url: "https://www.14ers.com/photos/graystorreys/peakphotos/large/200706_Tor01.jpg?lu=20180101"
+)
+Mountain.create(
+    name: "Castle Peak", 
+    elevation: "14,265 feet", 
+    rank: 12, 
+    class_rating: 2, 
+    latitude: 39.009647,
+    longitude: -106.86144,
+    mountain_range: @elk, 
+    image_url: "https://www.14ers.com/photos/castlegroup/peakphotos/large/200807_Cast04.jpg?lu=20180101"
+)
+Mountain.create(
+    name: "Quandary Peak", 
+    elevation: "14,265 feet", 
+    rank: 13, 
+    class_rating: 2, 
+    latitude: 39.397236,
+    longitude: -106.106430,
+    mountain_range: @tenmile_mosquito, 
+    image_url: "https://www.14ers.com/photos/quandarypeak/peakphotos/large/201201_Quan01.jpg?lu=20190320"
+)
+Mountain.create name: "Mt. Evans", elevation: "14,264 feet", rank: 14, class_rating: 2, range: "Front", image: "https://www.14ers.com/photos/evansgroup/peakphotos/large/200907_Evans01.jpg?lu=20190320"
 # Mountain.create name: "Longs Peak", elevation: "14,255 feet", rank: 15, class_rating: 3, range: "Front", image: "https://www.14ers.com/photos/longspeak/peakphotos/large/200508_Longs01.jpg?lu=20180101"
 # Mountain.create name: "Mt. Wilson", elevation: "14,246 feet", rank: 16, class_rating: 4, range: "San Juan", image: "https://www.14ers.com/photos/wilsongroup/peakphotos/large/200708_MtWil01.jpg?lu=20181119"
 # Mountain.create name: "Mt. Cameron", elevation: "14,238 feet", rank: 17, class_rating: 1, range: "Tenmile-Mosquito", image: "https://www.14ers.com/photos/lincolngroup/peakphotos/large/200409_Cam01.jpg?lu=20180101"
